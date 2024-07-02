@@ -4,7 +4,7 @@ use wasm_bindgen::prelude::*;
 use wasm_bindgen::JsCast;
 use web_sys::{window, CanvasRenderingContext2d, HtmlCanvasElement};
 
-const FPS: u32 = 30;
+const FPS: u32 = 300;
 
 #[wasm_bindgen(start)]
 pub fn start() -> Result<(), JsValue> {
